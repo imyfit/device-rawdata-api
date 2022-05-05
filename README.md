@@ -1,7 +1,7 @@
-# device-nbiot-conn-api
+# device-rawdata-api
 
 #### 介绍
-本仓库存放NB-IoT终端API。
+本仓库存放终端原始数据API。
 
 #### docs文件夹
 1. 接口文档存放位置，接口有增删改等需求时，只需要维护里面的接口“README.md”，其它文件请勿修改；
