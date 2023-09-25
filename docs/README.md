@@ -14,33 +14,11 @@
 
 5. 若有疑问请到ISSUE区提出 https://gitee.com/imyfit/imyfit-issue 愿我们的付出对您的开发事半功倍。
 
-## 支持列表
 
-<table>
-  <tr>
-  	<td rowspan="3"><center>终端</center></td>
-    <td colspan="5"><center>传感器</center></td>
-  </tr>
-  <tr>
-    <td colspan="3"><center>IMU</center></td>
-    <td rowspan="2"><center>PPG</center></td>
-    <td rowspan="2"><center>ECG</center></td>
-  </tr>
-  <tr>
-    <td><center>ACC</center></td>
-    <td><center>GYRO</center></td>
-    <td><center>MAG</center></td>
-  </tr>
-  <tr>
-      <td><center>B10C</center></td>
-      <td><center>16G,104Hz</center></td>
-      <td><center>2000A,104Hz</center></td>
-      <td><center>×</center></td>
-      <td><center>100Hz</center></td>
-      <td><center>250Hz</center></td>
-  </tr>
-</table>
-## 传感器说明
+
+## 传感器配置
+
+
 
 ### PPG类型-0x01
 
@@ -1273,7 +1251,7 @@ Table 10 Gnss数据参数表
 
 | **发送****(Hex)**                 | **接收****(Hex)**                | **说明**                                                   |
 | --------------------------------- | -------------------------------- | ---------------------------------------------------------- |
-| 68 3C 05 00 FF 02  01 01 82 2E 16 | 68 BC 05 00 FF 02 01 01 00 2C 16 | 打开PPG(Green LED)，  开启蓝牙数据传输                     |
+| 68 3C 05 00 FF 02  01 01 83 2E 16 | 68 BC 05 00 FF 02 01 01 00 2C 16 | 打开PPG(Green LED)，  开启蓝牙数据传输                     |
 |                                   | 68 BC 04 00 FF 01 01 01 2A  16   | 收到PPG数据传输开始信号  (开始上传数据)                    |
 |                                   | 68 BC XX XX 01 00 XX XX ~ XX 16  | 接收上传数据  (首次开启可能需要等待30秒左右才会有数据上传) |
 |                                   | . . .                            |                                                            |
